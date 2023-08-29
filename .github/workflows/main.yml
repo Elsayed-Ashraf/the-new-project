@@ -23,5 +23,11 @@ jobs:
       - name: 'testing printing'
         run: echo sayed
 
+      - uses: actions/checkout@v3 
 
+      - name: "login to docker hub" 
+        run: docker login --username elsayedas7raf --password dckr_pat_Oq-qF_x6hkSfOmmtMXD1eKnMmL8
 
+        
+
+       
